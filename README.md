@@ -34,3 +34,5 @@ The resulting data model structure and the active relationships used for data in
 <p align="center">
   <img src="./files/icons/Data_model.svg" alt="Database Schema" width="60%">
 </p>
+
+## Executive Summary
