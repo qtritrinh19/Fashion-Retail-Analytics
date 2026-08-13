@@ -14,7 +14,7 @@ The project focuses on three key areas:
 The analysis leverages **Microsoft SQL Server (MS SQL)** and **Power BI** in a parallel analytical workflow. Raw data was exported from **Google BigQuery** and loaded into MS SQL for data manipulation. To ensure robust logic and data accuracy, key business metrics were calculated simultaneously using T-SQL and DAX, effectively transforming complex transactional data into actionable business insights and interactive visual storytelling.
 
 - SQL Analysis & Metric Calculation: The T-SQL scripts used for data preprocessing, aggregation, and calculating key business metrics (such as Active Customers, Retained Customers, and MoM Growth) to validate against Power BI models can be found [here](/files/sql).
-- Power BI Modeling & Visualization: The data modeling workflow, DAX measures, and interactive dashboards used to visualize business performance and customer insights can be found here.
+- Power BI Modeling & Visualization: The data modeling workflow, DAX measures, and interactive dashboards used to visualize business performance and customer insights can be found [here](/files/dash).
 
 ## Data Structure & Initial Checks
 
