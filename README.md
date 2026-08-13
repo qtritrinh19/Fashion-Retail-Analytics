@@ -17,3 +17,20 @@ The analysis leverages **Microsoft SQL Server (MS SQL)** and **Power BI** in a p
 - Power BI Modeling & Visualization: The data modeling workflow, DAX measures, and interactive dashboards used to visualize business performance and customer insights can be found here.
 
 ## Data Structure & Initial Checks
+
+The initial dataset consists of five raw tables: *orders*, *order_items*, *users*, *products*, and *inventory_items*, with the primary orders table containing **124,819** transaction records.
+
+Before analysis, the data structure and potential relationships between the tables were reviewed, and initial data quality checks were performed using **Microsoft SQL Server** and **Power Query**. These checks covered missing values, duplicate records, inconsistent data formats, and potential data integrity issues across the transactional and dimensional data.
+
+A key data modeling step involved structuring these raw tables into a robust relational model. Because the transactional data is normalized, *order_items* acts as a bridge connecting the orders with the *products* and *inventory_items* dimensions.
+
+To enhance the analytical capabilities of the model, two additional calculated tables were generated directly within **Power BI**:
+
+- *Date* Table: A centralized dimension table created to enable consistent time-intelligence analysis across all temporal fields in the dataset.
+- *RFM* Table: Calculated using DAX, this table derives Recency, Frequency, and Monetary metrics for each user to segment the customer base and drive deeper Customer Insights.
+
+The resulting data model structure and the active relationships used for data integration are illustrated below:
+
+<p align="center">
+  <img src="./files/icons/Data_model.svg" alt="Database Schema" width="60%">
+</p>
