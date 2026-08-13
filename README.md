@@ -6,6 +6,8 @@ This project analyzes transactional data from a fashion e-commerce company to ev
 
 The analysis aims to understand the key factors influencing revenue growth and customer value, while identifying opportunities to optimize inventory management, increase average order value, and strengthen customer retention.
 
+**Data Source:** [The Look eCommerce](/files/data)
+
 The project focuses on three key areas:
 - **Executive Summary**: Analyze revenue trends, order volume, AOV, and profitability across key global markets to identify major drivers and periods of consistent growth.
 - **Product Performance**: Evaluate revenue and profit contribution across product categories, brands, and price classes. Identify high-value items, high-volume traffic drivers, and uncover supply chain bottlenecks related to high return rates and unsold inventory.
